@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import SheepCounter from './components/SheepCounter';
 
 
 class App extends React.Component {
@@ -21,10 +22,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="central-container">
-        <div className="counter-container">
-          {this.state.counter}
-        </div>
-        <button onClick={this.handleClickSheeps}className="button-container">Sheeps</button>
+        <SheepCounter counter={this.state.counter} handleClickSheeps={this.handleClickSheeps}/>
       </div>
     )
   }
