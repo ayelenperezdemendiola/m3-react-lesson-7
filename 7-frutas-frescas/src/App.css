@@ -1,0 +1,21 @@
+.fruits--container{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-top: tomato 2px solid;
+    border-bottom: tomato 2px solid;
+    margin: 20px;
+    padding: 10px;
+}
+.button--more{
+    border: solid 2px violet;
+    border-radius: 5px;
+    height: 20px;
+    margin: 5px;
+}
+.fruit--container{
+    display: flex;
+    align-items: center;
+    
+}
+.delete--fruit{
+    margin: 5px;
+}
